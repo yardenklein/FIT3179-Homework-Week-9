@@ -1,6 +1,32 @@
 #choropleth_map {
-	top:100px;
-	bottom: 100px; 
+	top: 100px;
+	bottom: 100px;
 	left: 100px;
 	right: 100px;
-}
+  }
+  
+  #worldmap, #linegraph {
+	display: flex;
+	justify-content: center;
+	position: relative;
+  }
+  
+  .vega-bindings {
+	margin-left: 20px; /* Adds spacing between the graph and the dropdown */
+	display: flex;
+	flex-direction: column; /* Stack the dropdown under the legend */
+	position: relative;
+	top: 100px; /* Adjust to align with the legend */
+  }
+  
+  .vega-bindings select {
+	font-size: 16px;
+	padding: 5px;
+	width: 200px; /* Adjust dropdown width */
+  }
+  
+  .vega-embed {
+	display: flex;
+	justify-content: center; /* Ensures the graph stays centered */
+  }
+  
