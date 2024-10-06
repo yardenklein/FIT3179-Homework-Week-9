@@ -9,7 +9,7 @@
     "width": 1150,
     "height": 700,
     "title": {
-      "text": "Three most populated countries",
+      "text": "Population Growth of the Three Largest Countries (1970-2021)",
       "fontSize": 24
     },
     "layer": [
@@ -28,7 +28,7 @@
           },
           "y": {
             "field": "population",
-            "title": "Population",
+            "title": "Population (in thousands)",
             "type": "quantitative",
             "scale": {"domain": [0, 1600000]},
             "axis": {
@@ -59,7 +59,7 @@
             {
               "field": "population",
               "type": "quantitative",
-              "title": "Population (Thousands)",
+              "title": "Population (in thousands)",
               "format": ",.0f"
             },
             {
@@ -111,7 +111,9 @@
               "baseline": "middle",
               "dx": -500,
               "dy": -195,
-              "fontSize": 14
+              "font": "sans-serif",
+              "fontSize": 16,
+              "fill": "black"
             },
             "encoding": {
               "text": {"value": "China surpasses 1 billion in 1980"}
@@ -154,7 +156,9 @@
               "baseline": "middle",
               "dx": -250,
               "dy": -5,
-              "fontSize": 14
+              "font": "sans-serif",
+              "fontSize": 16,
+              "fill": "black"
             },
             "encoding": {
               "text": {"value": "India's population boom driven by high birth rates and improved healthcare in the 1990s"}
@@ -197,7 +201,9 @@
               "baseline": "middle",
               "dx": -300,
               "dy": 190,
-              "fontSize": 14
+              "font": "sans-serif",
+              "fontSize": 16,
+              "fill": "black"
             },
             "encoding": {
               "text": {"value": "Steady population growth in the U.S., driven by immigration and economic stability"}
